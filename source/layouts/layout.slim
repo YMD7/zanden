@@ -5,10 +5,15 @@ html
     meta charset="utf-8"
     meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
 
-    title = "YMD Inc."
+    title = "Zanden Audio Systems Ltd."
 
     link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"
     link rel="icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"
+
+    // javascript:
+    //   src="https://use.typekit.net/ljp5zhr.js"
+    // javascript:
+    //   try{Typekit.load({ async: true });}catch(e){}
 
     == stylesheet_link_tag :site
     == javascript_include_tag  "all"
@@ -18,3 +23,11 @@ html
     section.l-main
         == yield
     == partial "layouts/footer"
+    // javascript:
+    //   function(d, s, id) {
+    //     var js, fjs = d.getElementsByTagName(s)[0];
+    //     if (d.getElementById(id)) return;
+    //     js = d.createElement(s); js.id = id;
+    //     js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+    //     fjs.parentNode.insertBefore(js, fjs);
+    //   }(document, 'script', 'facebook-jssdk');

@@ -17,7 +17,6 @@ gem 'middleman-livereload'
 
 # Bourbon Gems
 gem 'bourbon'
-gem 'neat'
 
 # Font Awesome Gems
 gem 'font-awesome-sass'

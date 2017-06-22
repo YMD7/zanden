@@ -1,1 +1,27 @@
-header.l-header
+header.c-header
+  .l-wrapper.c-header__inner
+    .c-header__logo-container
+      = link_to '/' do
+        = image_tag 'logo.svg', :class => 'c-header__logo-image'
+    .c-header__navi-container
+      nav.c-header__header-navi
+        ul.c-header__header-navi-list
+          li.c-header__header-navi-list-item
+            = link_to '/', :class => 'c-header__header-navi-link' do
+              | Products
+          li.c-header__header-navi-list-item
+            = link_to '/', :class => 'c-header__header-navi-link' do
+              | Where to Buy
+          li.c-header__header-navi-list-item
+            = link_to '/', :class => 'c-header__header-navi-link' do
+              | Awards
+          li.c-header__header-navi-list-item
+            = link_to '/', :class => 'c-header__header-navi-link' do
+              | Company
+    .c-header__util-container
+      .c-header__util-inner
+        .c-header__util-fb-btn
+          .fb-like data-href="http://www.zandenaudio.com" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"
+        .c-header__util-languages
+          span 日本語
+          span English
