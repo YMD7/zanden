@@ -1,0 +1,82 @@
+#fb-root
+javascript:
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '111845236101029',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+main
+  section.index-Topics
+    article.index-Topics_Hero
+      = link_to '/' do
+        h1.index-Topics_HeroH1
+          = image_tag '/contents/index/images/index-Topics_HeroImage.png', :class => 'index-Topics_HeroImage', :alt => "Model 3000 ~ the new line amplifier ~"
+        .index-Topics_HeroLinkArrow
+          = image_tag '/contents/base/images/icon-LinkArrowO.svg', :class => 'index-Topics_HeroLinkArrowIcon'
+    ol.index-Topics_Pickups
+      li
+        article.index-Topics_PickupItem
+          = link_to '/' do
+            h2.index-Topics_PickupItemH2
+              = image_tag '/contents/index/images/index-Topocs_PickupFirstImage.png', :class => 'index-Topocs_PickupItemImage', :alt => "Product Catalogue 2017 SS"
+            .index-Topics_PickupItemLinkArrow
+              = image_tag '/contents/base/images/icon-LinkArrowO.svg', :class => 'index-Topics_PickupItemLinkArrowIcon'
+    .index-Topics_SeeMore
+      = link_to '/' do
+        .index-Topics_SeeMoreWrapper
+          span
+            | See more
+          = image_tag '/contents/base/images/icon-LinkArrow.svg', :class => 'index-Topics_SeeMoreLinkArrowIcon'
+  nav.index-Menu
+    ul.index-Menu_List
+      li.index-Menu_ListItem
+        = link_to '/' do
+        .index-Menu_LinkWrapper
+          span
+            | Products
+          = image_tag '/contents/base/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+      li.index-Menu_ListItem
+        = link_to '/' do
+        .index-Menu_LinkWrapper
+          span
+            | Our Brand
+          = image_tag '/contents/base/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+      li.index-Menu_ListItem
+        = link_to '/' do
+        .index-Menu_LinkWrapper
+          span
+            | Distributors
+          = image_tag '/contents/base/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+      li.index-Menu_ListItem
+        = link_to '/' do
+        .index-Menu_LinkWrapper
+          span
+            | Contact
+          = image_tag '/contents/base/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+  section.index-Facebook
+    .index-Facebook_Container
+      h4.index-Facebook_H4
+        | Get our updates on Facebook.
+      .index-Facebook_Wapper
+        .index-Facebook_Embedded
+          .fb-page data-href="https://www.facebook.com/zandenaudio/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+            blockquote cite="https://www.facebook.com/zandenaudio/" class="fb-xfbml-parse-ignore"
+              a href="https://www.facebook.com/zandenaudio/"
+                | Zanden
+  nav.index-BackToTop
+    = link_to '#top' do
+      = image_tag '/contents/base/images/icon-LinkArrowO.svg', :class => 'index-BackToTop_Icon'
+      span.index-BackToTop_Text
+        | TOP OF PAGE

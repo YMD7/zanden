@@ -75,4 +75,7 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
+## Middleman - Webpack
+.sass-cache/
+node_modules/
 

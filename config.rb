@@ -46,5 +46,12 @@ end
 # without .html on URL
 activate :directory_indexes
 
-# middleman sprockets
-activate :sprockets
+# external pipeline
+activate :external_pipeline,
+
+  # webpack
+  name: :webpack,
+  command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
+  source: ".tmp/dist",
+  latency: 1
+

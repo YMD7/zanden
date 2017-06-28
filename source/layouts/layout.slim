@@ -7,27 +7,17 @@ html
 
     title = "Zanden Audio Systems Ltd."
 
-    link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"
-    link rel="icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"
 
     // javascript:
     //   src="https://use.typekit.net/ljp5zhr.js"
     // javascript:
     //   try{Typekit.load({ async: true });}catch(e){}
 
-    == stylesheet_link_tag :site
-    == javascript_include_tag  "all"
+    == favicon_tag "contents/base/images/favicon.ico"
+    == javascript_include_tag :bundle
+    == stylesheet_link_tag :bundle
 
-  body class="#{page_classes}"
-    == partial "layouts/header"
-    section.l-main
-        == yield
-    == partial "layouts/footer"
-    // javascript:
-    //   function(d, s, id) {
-    //     var js, fjs = d.getElementsByTagName(s)[0];
-    //     if (d.getElementById(id)) return;
-    //     js = d.createElement(s); js.id = id;
-    //     js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-    //     fjs.parentNode.insertBefore(js, fjs);
-    //   }(document, 'script', 'facebook-jssdk');
+  body
+    == partial "/contents/structure/header"
+    == yield
+    == partial "/contents/structure/footer"

@@ -1,0 +1,178 @@
+// ----------------------------------------
+//                               + index +
+// ----------------------------------------
+
+// hero
+
+.index-Topics_Hero {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: 2px solid $gray-white;
+  height: 450px;
+  padding: 0 18px;
+}
+.index-Topics_Hero a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+}
+.index-Topics_HeroH1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.index-Topics_HeroImage {
+  max-height: 308px;
+}
+.index-Topics_HeroLinkArrow {
+  padding: 48px 0 64px;
+  text-align: center;
+}
+.index-Topics_HeroLinkArrowIcon {
+  transform: rotate(90deg);
+  width: 24px;
+  height: 24px;
+}
+
+// pickups
+
+.index-Topics_Pickups {
+  padding: 0 18px;
+}
+.index-Topics_PickupItem {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: 2px solid $gray-white;
+  height: 318px;
+}
+.index-Topics_PickupItem a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+}
+.index-Topics_PickupItemH2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.index-Topocs_PickupItemImage {
+  max-height: 240px;
+}
+.index-Topics_PickupItemLinkArrow {
+  padding: 18px 0 30px;
+  text-align: center;
+}
+.index-Topics_PickupItemLinkArrowIcon {
+  transform: rotate(90deg);
+  width: 24px;
+  height: 24px;
+}
+.index-Topics_SeeMore {
+  margin-bottom: 40px;
+  padding: 0 18px;
+  text-align: right;
+}
+.index-Topics_SeeMore a {
+  display: inline-block;
+  border-bottom: 1px solid $gray;
+  padding: 6px 0px 0px 3px;
+  color: $gray-black;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.index-Topics_SeeMoreWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+.index-Topics_SeeMoreLinkArrowIcon {
+  transform: rotate(90deg);
+  width: 11px;
+  height: 7px;
+  margin: 0 0 1px 1px;
+}
+
+// menu
+
+.index-Menu {
+  padding: 30px 24px;
+}
+.index-Menu_List {
+  padding: 0;
+}
+.index-Menu_ListItem {
+  background-color: #F0EBDC;
+  margin-bottom: 6px;
+  padding: 18px 0;
+  text-align: center;
+}
+.index-Menu_LinkWrapper span {
+  margin-left: 15px;
+  font-size: 20px;
+  color: $gray-black;
+  line-height: 0;
+  letter-spacing: 0.5px;
+}
+.index-Menu_LinkArrowIcon {
+  transform: rotate(90deg);
+  width: 14px;
+  height: 9px;
+  margin: 0 0 2px 6px;
+}
+
+// facebook
+
+.index-Facebook {
+  margin-top: 40px;
+  padding: 0 24px;
+}
+.index-Facebook_Container {
+  border: 1px solid #4990E2;
+}
+h4.index-Facebook_H4 {
+  color: $gray;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+.index-Facebook_Wapper {
+  padding: 0 24px 24px;
+}
+.index-Facebook_Embedded {
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+// back to top
+
+.index-BackToTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid $gray-white;
+  margin: 48px 0 42px;
+  padding-top: 12px;
+}
+.index-BackToTop a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.index-BackToTop_Icon {
+  width: 30px;
+  height: 30px;
+}
+.index-BackToTop_Text {
+  margin-top: 4px;
+  color: $gray-black;
+  font-size: 10px;
+}
