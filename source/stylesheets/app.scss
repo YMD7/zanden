@@ -6,16 +6,16 @@
 
 // Base
 
-@import "contents/base/stylesheets/_normalize";
-@import "contents/base/stylesheets/_custom-reset";
+@import "contents/base/stylesheets/normalize";
+@import "contents/base/stylesheets/custom-reset";
 @import "contents/base/stylesheets/bourbon/bourbon";
-@import "contents/base/stylesheets/_custom-variables";
+@import "contents/base/stylesheets/custom-variables";
 
 // Structure
 
 @import "layouts/layout";
-@import "contents/structure/_header";
-@import "contents/structure/_footer";
+@import "contents/structure/header";
+@import "contents/structure/footer";
 
 // ==========================================================================
 // Pages
@@ -23,5 +23,4 @@
 
 // Index
 
-@import "contents/index/_index";
-
+@import "contents/index/index";

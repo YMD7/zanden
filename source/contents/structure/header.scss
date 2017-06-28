@@ -22,6 +22,21 @@ header {
   order: 3;
 }
 
+// logo
+
+.st-Header_Logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.st-Header_LogoLink {
+  padding: 9px 2px 2px;
+}
+.st-Header_LogoSVG {
+  width: 100px;
+}
+
 // nav
 
 .st-Header_Nav {
@@ -39,9 +54,6 @@ header {
 .st-Header_NavMenuSVG {
   width: 20px;
   height: 16px;
-}
-.st-Header_NavContaier-hidden {
-  display: none;
 }
 .st-Header_NavContaier {
   display: flex;
@@ -67,7 +79,7 @@ header {
   padding: 18px 0;
 }
 .st-Header_NavListItem a {
-  color: $gray-black;
+  color: $black;
   font-size: 30px;
   letter-spacing: 1px;
 }
@@ -82,21 +94,6 @@ header {
 .st-Header_NavMenuCloseIcon {
   width: 14px;
   margin-left: 6px;
-}
-
-// logo
-
-.st-Header_Logo {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.st-Header_LogoLink {
-  padding: 9px 2px 2px;
-}
-.st-Header_LogoSVG {
-  width: 100px;
 }
 
 // languages

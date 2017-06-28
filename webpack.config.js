@@ -63,6 +63,11 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin(
       'stylesheets/bundle.css'
-    )
-  ]
+    ),
+    new webpack.ProvidePlugin({
+      u: 'umbrellajs',
+      fade: 'fade',
+    }),
+  ],
 };
+

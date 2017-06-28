@@ -3,9 +3,9 @@ header#top
     = link_to '/', :class => 'st-Header_LogoLink' do
       = image_tag '/contents/structure/images/logo.svg', :class => "st-Header_LogoSVG"
   nav.st-Header_Nav
-    button#js-Header_NavMenuIcon.st-Header_NavMenuIcon
+    button.st-Header_NavMenuIcon
       = image_tag '/contents/base/images/icon-HamburgerMenu.svg', :class => 'st-Header_NavMenuSVG'
-    .st-Header_NavContaier-hidden
+    .st-Header_NavContaier.hidden style="opacity: 0;"
       ol.st-Header_NavList
         li.st-Header_NavListItem
           = link_to 'Home', '/'

@@ -5,12 +5,12 @@
 require('font-awesome/css/font-awesome.css');
 
 // SmoothScroll
-var ss = require('contents/base/javascripts/smoothScroll');
-ss();
+var smoothScroll = require('contents/base/javascripts/smoothScroll');
+smoothScroll();
 
 // ---------------------------------------
-//                             + Custom +
+//                            + Customs +
 // ---------------------------------------
-// Common
-var common = require('contents/base/javascripts/common');
-common();
+// Structure
+var structure = require('contents/structure/structure');
+structure();
