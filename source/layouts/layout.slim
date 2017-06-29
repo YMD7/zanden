@@ -1,23 +1,33 @@
 doctype html
 html
-  head
-    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
-    meta charset="utf-8"
-    meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
+    head
+        meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+        meta charset="utf-8"
+        meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
 
-    title = "Zanden Audio Systems Ltd."
+        title = "Zanden Audio Systems Ltd."
 
-
-    // javascript:
-    //   src="https://use.typekit.net/ljp5zhr.js"
-    // javascript:
-    //   try{Typekit.load({ async: true });}catch(e){}
-
-    == favicon_tag "contents/base/images/favicon.ico"
-    == javascript_include_tag :bundle
-    == stylesheet_link_tag :bundle
-
-  body
-    == partial "/contents/structure/header"
-    == yield
-    == partial "/contents/structure/footer"
+        == favicon_tag "sitewide/images/favicon.ico"
+        == javascript_include_tag :bundle
+        == stylesheet_link_tag :bundle
+    body
+        == partial "/layouts/header"
+        #fb-root
+            javascript:
+                window.fbAsyncInit = function() {
+                    FB.init({
+                        appId   : '111845236101029',
+                        xfbml   : true,
+                        version : 'v2.9'
+                    });
+                    FB.AppEvents.logPageView();
+                };
+                (function(d, s, id){
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {return;}
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+        == yield
+        == partial "/layouts/footer"

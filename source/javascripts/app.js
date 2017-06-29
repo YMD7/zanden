@@ -5,17 +5,15 @@
 require('font-awesome/css/font-awesome.css');
 
 // SmoothScroll
-const ss = require('contents/base/javascripts/smoothScroll');
-ss();
-
-// Fader.js
+const smoothScroll = require('sitewide/javascripts/smoothScroll');
+smoothScroll();
 
 // ---------------------------------------
-//                            + Customs +
+//                            + layouts +
 // ---------------------------------------
-// Structure
-const structure = require('contents/structure/structure');
+// Header and Footer
+const layout = require('layouts/layout');
 
 window.onload = function () {
-  structure();
+  layout();
 }

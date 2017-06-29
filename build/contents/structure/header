@@ -1,26 +1,35 @@
 /*
-Error: File to import not found or unreadable: contents/base/stylesheets/normalize.
-        on line 9 of /Users/kyo/Dropbox/Site/zanden/source/stylesheets/app.scss
+Error: Undefined variable: "$gray-white".
+        on line 67 of /Users/kyo/Dropbox/Site/zanden/source/contents/structure/header.scss
 
-4: // Foundation
-5: // ==========================================================================
-6: 
-7: // Base
-8: 
-9: @import "contents/base/stylesheets/normalize";
-10: @import "contents/base/stylesheets/custom-reset";
-11: @import "contents/base/stylesheets/bourbon/bourbon";
-12: @import "contents/base/stylesheets/custom-variables";
-13: 
-14: // Structure
+62:   flex-direction: column;
+63:   position: fixed;
+64:   z-index: 10;
+65:   top: 0;
+66:   left: 0;
+67:   background-color: $gray-white;
+68:   width: 100vw;
+69:   height: 100vh;
+70: }
+71: .st-Header_NavContaier.hidden {
+72:   display: none;
 
 Backtrace:
-/Users/kyo/Dropbox/Site/zanden/source/stylesheets/app.scss:9
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:45:in `import'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:28:in `imported_file'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:37:in `css_import?'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+/Users/kyo/Dropbox/Site/zanden/source/contents/structure/header.scss:67
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/script/tree/node.rb:58:in `perform'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
@@ -129,4 +138,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: contents/base/stylesheets/normalize.\A         on line 9 of /Users/kyo/Dropbox/Site/zanden/source/stylesheets/app.scss\A \A 4: // Foundation\A 5: // ==========================================================================\A 6: \A 7: // Base\A 8: \A 9: @import \"contents/base/stylesheets/normalize\";\A 10: @import \"contents/base/stylesheets/custom-reset\";\A 11: @import \"contents/base/stylesheets/bourbon/bourbon\";\A 12: @import \"contents/base/stylesheets/custom-variables\";\A 13: \A 14: // Structure"; }
+  content: "Error: Undefined variable: \"$gray-white\".\A         on line 67 of /Users/kyo/Dropbox/Site/zanden/source/contents/structure/header.scss\A \A 62:   flex-direction: column;\A 63:   position: fixed;\A 64:   z-index: 10;\A 65:   top: 0;\A 66:   left: 0;\A 67:   background-color: $gray-white;\A 68:   width: 100vw;\A 69:   height: 100vh;\A 70: }\A 71: .st-Header_NavContaier.hidden {\A 72:   display: none;"; }

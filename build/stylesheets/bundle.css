@@ -376,6 +376,26 @@ header {
       -ms-flex-order: 3;
           order: 3; }
 
+.st-Header_Logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.st-Header_LogoLink {
+  padding: 9px 2px 2px; }
+
+.st-Header_LogoSVG {
+  width: 100px; }
+
 .st-Header_Nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -395,9 +415,6 @@ header {
 .st-Header_NavMenuSVG {
   width: 20px;
   height: 16px; }
-
-.st-Header_NavContaier-hidden {
-  display: none; }
 
 .st-Header_NavContaier {
   display: -webkit-box;
@@ -421,6 +438,45 @@ header {
   width: 100vw;
   height: 100vh; }
 
+.st-Header_NavContaier.hidden {
+  display: none; }
+
+.st-Header_NavContaier.fadeIn {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn; }
+
+.st-Header_NavContaier.fadeOut {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
 .st-Header_NavList {
   position: relative;
   top: -18px;
@@ -437,7 +493,7 @@ header {
   padding: 18px 0; }
 
 .st-Header_NavListItem a {
-  color: #666666;
+  color: #222222;
   font-size: 30px;
   letter-spacing: 1px; }
 
@@ -456,26 +512,6 @@ header {
 .st-Header_NavMenuCloseIcon {
   width: 14px;
   margin-left: 6px; }
-
-.st-Header_Logo {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.st-Header_LogoLink {
-  padding: 9px 2px 2px; }
-
-.st-Header_LogoSVG {
-  width: 100px; }
 
 .st-Header_Languages {
   display: -webkit-box;
@@ -617,7 +653,7 @@ footer {
           justify-content: center;
   margin: 0; }
 
-.index-Topocs_PickupItemImage {
+.index-Topics_PickupItemImage {
   max-height: 240px; }
 
 .index-Topics_PickupItemLinkArrow {

@@ -1,21 +1,21 @@
 @charset "utf-8";
 
 // ==========================================================================
-// Foundation
+// Sitewide
 // ==========================================================================
 
-// Base
+// Libraries
 
-@import "contents/base/stylesheets/normalize";
-@import "contents/base/stylesheets/custom-reset";
-@import "contents/base/stylesheets/bourbon/bourbon";
-@import "contents/base/stylesheets/custom-variables";
+@import "sitewide/stylesheets/normalize";
+@import "sitewide/stylesheets/custom-reset";
+@import "sitewide/stylesheets/bourbon/bourbon";
+@import "sitewide/stylesheets/custom-variables";
 
-// Structure
+// Layouts
 
 @import "layouts/layout";
-@import "contents/structure/header";
-@import "contents/structure/footer";
+@import "layouts/header";
+@import "layouts/footer";
 
 // ==========================================================================
 // Pages
@@ -23,4 +23,4 @@
 
 // Index
 
-@import "contents/index/index";
+@import "index";

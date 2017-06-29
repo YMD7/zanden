@@ -68,6 +68,23 @@ header {
   width: 100vw;
   height: 100vh;
 }
+.st-Header_NavContaier.hidden {
+  display: none;
+}
+.st-Header_NavContaier.fadeIn {
+  animation-duration: 0.5s;
+  animation-name: fadeIn;
+}
+.st-Header_NavContaier.fadeOut {
+  animation-duration: 0.5s;
+  animation-name: fadeOut;
+}
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+@keyframes fadeOut {
+  from { opacity: 1; } to { opacity: 0; }
+}
 .st-Header_NavList {
   position: relative;
   top: -18px;

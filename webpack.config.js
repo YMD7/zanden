@@ -66,7 +66,6 @@ module.exports = {
     ),
     new webpack.ProvidePlugin({
       u: 'umbrellajs',
-      fade: 'fade',
     }),
   ],
 };
