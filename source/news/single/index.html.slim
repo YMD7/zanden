@@ -1,1 +1,43 @@
 main
+  h1.newsSingle-Heading_H1
+    | News
+  section.newsSingle-Articles
+    ol.newsSingle-Article_List
+      li.newsSingle-Article_ListItem
+        article.newsSingle-Article
+          = link_to '/' do
+            .newsSingle-Article_Heading
+              span.newsSingle-Article_Date
+                | 2017.6.19
+              h2.newsSingle-Article_TitleH2
+                | We upgraded model 3000 line preamplifier to the mk2 version.
+            = image_tag '/news/images/news-Thumb_m3000.png', :class => 'newsSingle-Article_ThumbImage', :alt => ''
+            .newsSingle-Article_LinkArrow
+              = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-Article_LinkArrowIcon'
+      li.newsSingle-Article_ListItem
+        article.newsSingle-Article
+          = link_to '/' do
+            .newsSingle-Article_Heading
+              span.newsSingle-Article_Date
+                | 2017.6.19
+              h2.newsSingle-Article_TitleH2
+                | We upgraded model 3000 line preamplifier to the mk2 version.
+            = image_tag '/news/images/news-Thumb_catalogue2017.png', :class => 'newsSingle-Article_ThumbImage', :alt => ''
+            .newsSingle-Article_LinkArrow
+              = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-Article_LinkArrowIcon'
+      li.newsSingle-Article_ListItem
+        article.newsSingle-Article
+          = link_to '/' do
+            .newsSingle-Article_Heading
+              span.newsSingle-Article_Date
+                | 2017.6.19
+              h2.newsSingle-Article_TitleH2
+                | We upgraded model 3000 line preamplifier to the mk2 version.
+            = image_tag '/news/images/news-Thumb_Award.png', :class => 'newsSingle-Article_ThumbImage', :alt => ''
+            .newsSingle-Article_LinkArrow
+              = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-Article_LinkArrowIcon'
+  nav.newsSingle-BackToTop
+    = link_to '#top' do
+      = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-BackToTop_Icon'
+      span.newsSingle-BackToTop_Text
+        | TOP OF PAGE

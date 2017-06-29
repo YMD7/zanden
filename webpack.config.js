@@ -54,7 +54,7 @@ module.exports = {
         use: [{
           loader: 'file-loader',
           options: {
-            name: 'contents/base/fonts/font-awesome/[name].[ext]'
+            name: '/sitewide/fonts/font-awesome/[name].[ext]'
           }
         }],
       },

@@ -1,0 +1,28 @@
+// ----------------------------------------
+//                          + news index +
+// ----------------------------------------
+
+// main
+
+// back to top
+
+.newsSingle-BackToTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0 42px;
+}
+.newsSingle-BackToTop > a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.newsSingle-BackToTop_Icon {
+  width: 30px;
+  height: 30px;
+}
+.newsSingle-BackToTop_Text {
+  margin-top: 4px;
+  color: $gray-black;
+  font-size: 10px;
+}
