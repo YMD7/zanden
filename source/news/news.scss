@@ -1,45 +1,45 @@
 // ----------------------------------------
-//                                + news +
+//                          + news index +
 // ----------------------------------------
 
-// news index
+// main
 
-.news-Heading_H1 {
+.newsIndex-Heading_H1 {
   padding: 24px 18px 30px;
   color: $black;
   font-size: 16px;
 }
-.news-Article_ListItem {
+.newsIndex-Article_ListItem {
   border-bottom: 2px solid $gray-white;
   margin-bottom: 12px;
   padding: 0 18px;
 }
-.news-Article > a {
+.newsIndex-Article > a {
   display: flex;
   flex-direction: column;
 }
-.news-Article_Heading {
+.newsIndex-Article_Heading {
   margin-bottom: 12px;
 }
-.news-Article_Date {
+.newsIndex-Article_Date {
   color: $black;
   font-family: $gothic;
   font-size: 10px;
 }
-.news-Article_TitleH2 {
+.newsIndex-Article_TitleH2 {
   margin: 12px 0;
   color: $black;
   font-size: 19px; 
   letter-spacing: 0.5px;
 }
-.news-Article_ThumbImage {
+.newsIndex-Article_ThumbImage {
   width: 100%;
 }
-.news-Article_LinkArrow {
+.newsIndex-Article_LinkArrow {
   padding: 30px 0;
   text-align: center;
 }
-.news-Article_LinkArrowIcon {
+.newsIndex-Article_LinkArrowIcon {
   transform: rotate(90deg);
   width: 24px;
   height: 24px;
@@ -47,22 +47,22 @@
 
 // back to top
 
-.news-BackToTop {
+.newsIndex-BackToTop {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 24px 0 42px;
 }
-.news-BackToTop > a {
+.newsIndex-BackToTop > a {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.news-BackToTop_Icon {
+.newsIndex-BackToTop_Icon {
   width: 30px;
   height: 30px;
 }
-.news-BackToTop_Text {
+.newsIndex-BackToTop_Text {
   margin-top: 4px;
   color: $gray-black;
   font-size: 10px;
