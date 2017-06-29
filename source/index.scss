@@ -12,7 +12,7 @@
   height: 450px;
   padding: 0 18px;
 }
-.index-Topics_Hero a {
+.index-Topics_Hero > a {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
 }
 .index-Topics_HeroImage {
   max-height: 308px;
@@ -50,7 +49,7 @@
   border-bottom: 2px solid $gray-white;
   height: 318px;
 }
-.index-Topics_PickupItem a {
+.index-Topics_PickupItem > a {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -61,7 +60,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
 }
 .index-Topics_PickupItemImage {
   max-height: 240px;
@@ -80,7 +78,7 @@
   padding: 0 18px;
   text-align: right;
 }
-.index-Topics_SeeMore a {
+.index-Topics_SeeMore > a {
   display: inline-block;
   border-bottom: 1px solid $gray;
   padding: 6px 0px 0px 3px;
@@ -139,9 +137,9 @@
   border: 1px solid #4990E2;
 }
 h4.index-Facebook_H4 {
+  margin: 24px 0;
   color: $gray;
   font-size: 20px;
-  font-weight: normal;
   text-align: center;
 }
 .index-Facebook_Wapper {
@@ -162,7 +160,7 @@ h4.index-Facebook_H4 {
   margin: 48px 0 42px;
   padding-top: 12px;
 }
-.index-BackToTop a {
+.index-BackToTop > a {
   display: flex;
   align-items: center;
   flex-direction: column;

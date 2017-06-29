@@ -325,6 +325,11 @@ ul, ol {
 li {
   list-style: none; }
 
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal; }
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -569,7 +574,7 @@ footer {
   height: 450px;
   padding: 0 18px; }
 
-.index-Topics_Hero a {
+.index-Topics_Hero > a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -594,8 +599,7 @@ footer {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  margin: 0; }
+          align-items: center; }
 
 .index-Topics_HeroImage {
   max-height: 308px; }
@@ -625,7 +629,7 @@ footer {
   border-bottom: 2px solid #f6f6f6;
   height: 318px; }
 
-.index-Topics_PickupItem a {
+.index-Topics_PickupItem > a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -650,8 +654,7 @@ footer {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0; }
+          justify-content: center; }
 
 .index-Topics_PickupItemImage {
   max-height: 240px; }
@@ -671,7 +674,7 @@ footer {
   padding: 0 18px;
   text-align: right; }
 
-.index-Topics_SeeMore a {
+.index-Topics_SeeMore > a {
   display: inline-block;
   border-bottom: 1px solid #aaaaaa;
   padding: 6px 0px 0px 3px;
@@ -731,9 +734,9 @@ footer {
   border: 1px solid #4990E2; }
 
 h4.index-Facebook_H4 {
+  margin: 24px 0;
   color: #aaaaaa;
   font-size: 20px;
-  font-weight: normal;
   text-align: center; }
 
 .index-Facebook_Wapper {
@@ -757,7 +760,7 @@ h4.index-Facebook_H4 {
   margin: 48px 0 42px;
   padding-top: 12px; }
 
-.index-BackToTop a {
+.index-BackToTop > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -774,6 +777,85 @@ h4.index-Facebook_H4 {
   height: 30px; }
 
 .index-BackToTop_Text {
+  margin-top: 4px;
+  color: #666666;
+  font-size: 10px; }
+
+.news-Heading_H1 {
+  padding: 24px 18px 30px;
+  color: #222222;
+  font-size: 16px; }
+
+.news-Article_ListItem {
+  border-bottom: 2px solid #f6f6f6;
+  margin-bottom: 12px;
+  padding: 0 18px; }
+
+.news-Article > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.news-Article_Heading {
+  margin-bottom: 12px; }
+
+.news-Article_Date {
+  color: #222222;
+  font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, 游ゴシック体, "Yu Gothic", YuGothic, "\30D2\30E9\30AE\30CE\89D2\30B4\30B7\30C3\30AF   Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+  font-size: 10px; }
+
+.news-Article_TitleH2 {
+  margin: 12px 0;
+  color: #222222;
+  font-size: 19px;
+  letter-spacing: 0.5px; }
+
+.news-Article_ThumbImage {
+  width: 100%; }
+
+.news-Article_LinkArrow {
+  padding: 30px 0;
+  text-align: center; }
+
+.news-Article_LinkArrowIcon {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 24px;
+  height: 24px; }
+
+.news-BackToTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 24px 0 42px; }
+
+.news-BackToTop > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.news-BackToTop_Icon {
+  width: 30px;
+  height: 30px; }
+
+.news-BackToTop_Text {
   margin-top: 4px;
   color: #666666;
   font-size: 10px; }
