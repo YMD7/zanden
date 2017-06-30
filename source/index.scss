@@ -86,17 +86,11 @@
   font-size: 12px;
   letter-spacing: 0.5px;
 }
-.index-Topics_SeeMoreWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-
-}
 .index-Topics_SeeMoreLinkArrowIcon {
   transform: rotate(90deg);
   width: 11px;
   height: 7px;
-  margin: 0 0 1px 1px;
+  margin-left: 1px;
 }
 
 // menu
@@ -108,15 +102,21 @@
   padding: 0;
 }
 .index-Menu_ListItem {
+  display: flex;
+  align-items: center;
   background-color: #F0EBDC;
   margin-bottom: 6px;
+}
+.index-Menu_Link {
+  display: block;
+  width: 100%;
   padding: 18px 0;
+  color: $gray-black;
   text-align: center;
 }
-.index-Menu_LinkWrapper span {
+.index-Menu_Link span {
   margin-left: 15px;
   font-size: 20px;
-  color: $gray-black;
   line-height: 0;
   letter-spacing: 0.5px;
 }

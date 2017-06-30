@@ -1,1 +1,821 @@
 main
+  h1.productsIndex-Heading_H1
+    | Products
+  section.productsIndex-Products
+    h2.productsIndex-Product_LineNameH2
+      = image_tag '/sitewide/images/products/Logo_Classic.png', :class => 'productsIndex-Product_LineNameLogo', :alt => 'Classic'
+    ol.productsIndex-Product_List
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Phono Preamplifier
+              h3.productsIndex-Product_ProductNameH3
+                | Model 1200mk3
+            = image_tag '/sitewide/images/products/Main_Model1200mk3.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Line Preamplifier
+              h3.productsIndex-Product_ProductNameH3
+                | Model 3000mk2
+            = image_tag '/sitewide/images/products/Main_Model3000mk2.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Mono Power Amplifier
+              h3.productsIndex-Product_ProductNameH3
+                | Model 9600mk2
+            = image_tag '/sitewide/images/products/Main_Model9600mk2.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+  section.productsIndex-Products
+    h2.productsIndex-Product_LineNameH2
+      = image_tag '/sitewide/images/products/Logo_Modern.png', :class => 'productsIndex-Product_LineNameLogo', :alt => 'Modern'
+    ol.productsIndex-Product_List
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Phono Preamplifier
+              h3.productsIndex-Product_ProductNameH3
+                | Model 120
+            = image_tag '/sitewide/images/products/Main_Model120.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Line Preamplifier
+              h3.productsIndex-Product_ProductNameH3
+                | Model 3100
+            = image_tag '/sitewide/images/products/Main_Model3100.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Stereo Power Amplifier
+              h3.productsIndex-Product_ProductNameH3
+                | Model 8120
+            = image_tag '/sitewide/images/products/Main_Model8120.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+  section.productsIndex-Products
+    h2.productsIndex-Product_LineNameH2
+      | Accessory
+    ol.productsIndex-Product_List
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Vibration Absorber
+              h3.productsIndex-Product_ProductNameH3
+                | ZVA-1
+            = image_tag '/sitewide/images/products/Main_ZVA-1.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+      li.productsIndex-Product_ListItem
+        article.productsIndex-Product
+          = link_to '/products/single' do
+            .productsIndex-Product_Heading
+              span.productsIndex-Product_CategoryName
+                | Turntable Platter Mat
+              h3.productsIndex-Product_ProductNameH3
+                | TPM-1
+            = image_tag '/sitewide/images/products/Main_TPM-1.png', :class => 'productsIndex-Product_ThumbImage', :alt => ''
+            .productsIndex-Product_LinkArrow
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Product_LinkArrowIcon'
+  section.productsIndex-Catalogue
+    .productsIndex-CatalogueContainer
+      .productsIndex-CatalogueBorder
+        h4.productsIndex-Catalogue_H4
+          | Product Catalogue 2017 SS
+        .productsIndex-Catalogue_CoverPhotoContainer
+          = image_tag '/products/images/Catalogue_2017SS.jpg', :class => 'productsIndex-Catalogue_CoverPhotoImage'
+        = link_to '/', :class => 'productsIndex-Catalogue_OpenLink' do
+          .productsIndex-Catalogue_OpenLinkInner
+            = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-Catalogue_OpenLinkArrowIcon'
+            .productsIndex-Catalogue_LinkTextWrapper
+              span
+                | Opens in new tab
+              hr
+              span
+                | PDF [5.7MB]
+  section.productsIndex-Awards
+    h2.productsIndex-Awards_H2
+      | Awards
+    ol.productsIndex-Awards_List
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 120
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | Phono Preamplifier
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model120.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model120', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2015
+                span.productsIndex-Awards_AwardsFor
+                  | Model 120
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | PRODUCT of the YEAR 2015
+                    = link_to 'http://www.theabsolutesound.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | the absolute sound (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_product_of_the_year_2015.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 1200 series
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | Phono Preamplifier
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model1200mk3.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model1200mk3', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2002
+                span.productsIndex-Awards_AwardsFor
+                  | Model 1200
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Recommended Component Class A
+                    = link_to 'http://www.stereophile.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Stereophile (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2003
+                span.productsIndex-Awards_AwardsFor
+                  | Model 1200
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Golden Ear Award 2003
+                    = link_to 'http://www.theabsolutesound.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | the absolute sound (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_golden_ear_award_2003.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2007
+                span.productsIndex-Awards_AwardsFor
+                  | Model 1200mk2
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | PRODUCT OF THE YEAR 2007
+                    = link_to 'http://www.hifiplus.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | HiFi+ (U.K.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_hifi+_product_of_the_year_2007.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 1000
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              |  ????
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_NoticeNLP
+          small
+            | No longer in production
+        .productsIndex-Awards_ThumbsContainer
+          .productsIndex-Awards_NoticeNoImage
+            small
+              | No Image
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2000
+                span.productsIndex-Awards_AwardsFor
+                  | Model 1000
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Recommended Component Class A
+                    = link_to 'http://www.theabsolutesound.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Stereophile (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 3000
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | Line Preamplifier
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model3000mk2.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model3000mk2', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2009
+                span.productsIndex-Awards_AwardsFor
+                  | Model 3000
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | FDS Hi-Fi Award 2009
+                    = link_to 'http://www.fedeltadelsuono.net/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Fedeltà del Suono (Italy)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_fds_hi-fi_award_2009-Model3000.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2011
+                span.productsIndex-Awards_AwardsFor
+                  | Model 3000
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | SPARK in the dark Award
+                    = link_to 'http://www.remusic.it/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | REMUSIC (Italy)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_spark_in_the_dark_award.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 3100
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | Line Preamplifier
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model3100.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model3100', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2014
+                span.productsIndex-Awards_AwardsFor
+                  | Model 3100
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | PRODUCT of the YEAR 2014
+                    = link_to 'http://www.theabsolutesound.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | the absolute sound (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_product_of_the_year_2014.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 7000-300B
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | ????? Preamplifier
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_NoticeNLP
+          small
+            | No longer in production
+        .productsIndex-Awards_ThumbsContainer
+          .productsIndex-Awards_NoticeNoImage
+            small
+              | No Image
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2001
+                span.productsIndex-Awards_AwardsFor
+                  | Model 7000-300B
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Most Wanted Component Award
+                    = link_to 'http://www.stereotimes.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Stereo Times (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 8120
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | Stereo Power Amplifier
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model8120.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model8120', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2014
+                span.productsIndex-Awards_AwardsFor
+                  | Model 8120
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | PRODUCT of the YEAR 2014
+                    = link_to 'http://www.theabsolutesound.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | the absolute sound (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_product_of_the_year_2014.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 2500 series
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | CD Player
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_NoticeNLP
+          small
+            | No longer in production
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model2500S.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model2500', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2008
+                span.productsIndex-Awards_AwardsFor
+                  | Model 2500
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | PRODUCT OF THE YEAR 2008
+                    = link_to 'http://www.hifiplus.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | HiFi+ (U.K.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_hifi+_product_of_the_year_2008.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2009
+                span.productsIndex-Awards_AwardsFor
+                  | Model 2500S
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Aesthetics &amp Sound Award
+                    = link_to 'http://www.soundstage.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Soundstage (Canada)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_aesthetics_and_sound_award_2009.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 2000 series
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | CD Transport
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_NoticeNLP
+          small
+            | No longer in production
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model2000P.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model2000P', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2004
+                span.productsIndex-Awards_AwardsFor
+                  | Model 2000P
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Blue Moon Award 2004
+                    = link_to 'http://www.6moons.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | 6moons.com (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2005
+                span.productsIndex-Awards_AwardsFor
+                  | Model 2000P
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | PRODUCT OF THE YEAR 2005
+                    = link_to 'http://www.hifiplus.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | HiFi+ (U.K.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_hifi+_product_of_the_year_2005.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Reviewer's Choice 2005
+                    = link_to 'http://www.soundstage.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Soundstage (Canada)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_reviewers_choice_2005.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Innovation in Design
+                    = link_to 'http://www.soundstage.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Soundstage (Canada)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_innovation_in_design.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2006
+                span.productsIndex-Awards_AwardsFor
+                  | Model 2000P
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Product of the year 2006 Award
+                    = link_to 'http://www.hifinews.co.uk/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Hi-Fi News (U.K.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_product_of_the_year_2006_award.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2009
+                span.productsIndex-Awards_AwardsFor
+                  | Model 2000P
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | FDS Hi-Fi Award 2009
+                    = link_to 'http://www.fedeltadelsuono.net/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Fedeltà del Suono (Italy)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_fds_hi-fi_award_2009-Model2000_5000.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+      li.productsIndex-Awards_ListItem.hidden
+        a.productsIndex-Awards_ProductNames
+          h4.productsIndex-Awards_ProductNameH4
+            | Model 5000 series
+          .productsIndex-Awards_ProductCategoryContainer
+            span.productsIndex-Awards_ProductCategory
+              | D/A Converter
+            .productsIndex-Awards_PlusIconContainer
+              = image_tag '/sitewide/images/icons/Plus.svg', :class => 'productsIndex-Awards_PlusIcon'
+          .productsIndex-Awards_ClickArea
+        .productsIndex-Awards_NoticeNLP
+          small
+            | No longer in production
+        .productsIndex-Awards_ThumbsContainer
+          = image_tag '/sitewide/images/products/Main_Model5000S.png', :class => 'productsIndex-Awards_Thumb'
+        .productsIndex-Awards_SeeThisProductContainer
+          = link_to '/products/model5000S', :class => 'productsIndex-Awards_SeeThisProduct' do
+            span
+              | See this product
+        .productsIndex-Awards_TimelineContainer
+          ol.productsIndex-Awards_TimelineList
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2002
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000mk2
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Aesthetics &amp Sound Award
+                    = link_to 'http://www.soundstage.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Soundstage (Canada)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_aesthetics_and_sound_award_2002.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Blue Moon Award 2002
+                    = link_to 'http://www.6moons.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | 6moons.com (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2003
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000mk3
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Most Wanted Component Award
+                    = link_to 'http://www.stereotimes.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Stereo Times (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_most_wanted_component_award_2003.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2003
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000mk4
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Component of the year 2003
+                    = link_to 'http://www.6moons.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | 6moons.com (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_component_of_the_year_2003.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2004
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000mk4
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Hall of Fame Award
+                    = link_to 'http://www.soundstage.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Soundstage (Canada)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_hall_of_fame_award_2004.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2004
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000S
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Blue Moon Award 2004
+                    = link_to 'http://www.6moons.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | 6moons.com (U.S.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2005
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000S
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | PRODUCT OF THE YEAR 2005
+                    = link_to 'http://www.hifiplus.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | HiFi+ (U.K.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_hifi+_product_of_the_year_2005.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Reviewer's Choice 2005
+                    = link_to 'http://www.soundstage.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Soundstage (Canada)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_reviewers_choice_2005.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Innovation in Design
+                    = link_to 'http://www.soundstage.com/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Soundstage (Canada)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_innovation_in_design.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2006
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000S
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | Product of the year 2006 Award
+                    = link_to 'http://www.hifinews.co.uk/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Hi-Fi News (U.K.)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_product_of_the_year_2006_award.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+            li.productsIndex-Awards_TimelineListItem
+              .productsIndex-Awards_AwardsYearContainer
+                span.productsIndex-Awards_AwardsYear
+                  | 2009
+                span.productsIndex-Awards_AwardsFor
+                  | Model 5000S
+              ol.productsIndex-Awards_AwardsListInYear
+                li.productsIndex-Awards_AwardsListItemInYear
+                  .productsIndex-Awards_AwardsTitleContainer
+                    h3.productsIndex-Awards_AwardsTitleH3
+                      | FDS Hi-Fi Award 2009
+                    = link_to 'http://www.fedeltadelsuono.net/', :target => '_blank', :class => 'productsIndex-Awards_AwardsAuthorityLink' do
+                      h5.productsIndex-Awards_AwardsAuthorityH5
+                        | Fedeltà del Suono (Italy)
+                      i.productsIndex-Awards_ExternalLinkIcon.fa.fa-external-link
+                  .productsIndex-Awards_AwardsTitleLogoContainer
+                    = image_tag '/sitewide/images/awards/Logo_fds_hi-fi_award_2009-Model2000_5000.gif', :class => 'productsIndex-Awards_AwardsTitleLogoImage'
+        a.productsIndex-Awards_CloseButton
+          span
+            | Close
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
+          .productsIndex-Awards_ClickArea
+  nav.productsIndex-BackToTop
+    = link_to '#top' do
+      = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-BackToTop_Icon'
+      span.productsIndex-BackToTop_Text
+        | TOP OF PAGE

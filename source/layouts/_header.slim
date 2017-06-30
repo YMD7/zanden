@@ -4,23 +4,23 @@ header#top
       = image_tag '/sitewide/images/logo.svg', :class => "st-Header_LogoSVG"
   nav.st-Header_Nav
     button.st-Header_NavMenuIcon
-      = image_tag '/sitewide/images/icon-HamburgerMenu.svg', :class => 'st-Header_NavMenuSVG'
+      = image_tag '/sitewide/images/icons/HamburgerMenu.svg', :class => 'st-Header_NavMenuSVG'
     .st-Header_NavContaier.hidden
       ol.st-Header_NavList
         li.st-Header_NavListItem
           = link_to 'Home', '/'
         li.st-Header_NavListItem
-          = link_to 'Products', '/'
+          = link_to 'Products', '/products'
         li.st-Header_NavListItem
-          = link_to 'Our Brand', '/'
+          = link_to 'Our Brand', '/brand'
         li.st-Header_NavListItem
-          = link_to 'Where to buy', '/'
+          = link_to 'Distributors', '/distribution'
         li.st-Header_NavListItem
-          = link_to 'Contact', '/'
+          = link_to 'Contact', '/contact'
       .st-Header_NavMenuClose
         button.st-Header_NavMenuCloseButton
           | Close
-          = image_tag '/sitewide/images/icon-Times.svg', :class => 'st-Header_NavMenuCloseIcon'
+          = image_tag '/sitewide/images/icons/Times.svg', :class => 'st-Header_NavMenuCloseIcon'
   .st-Header_Languages
     button.st-Header_LanguageIcon
       i.st-Header_LanguageIconGlobe.fa.fa-globe

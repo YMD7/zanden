@@ -1,43 +1,30 @@
 main
-  h1.newsSingle-Heading_H1
+  h3.newsSingle-Heading_H3
     | News
-  section.newsSingle-Articles
-    ol.newsSingle-Article_List
-      li.newsSingle-Article_ListItem
-        article.newsSingle-Article
-          = link_to '/' do
-            .newsSingle-Article_Heading
-              span.newsSingle-Article_Date
-                | 2017.6.19
-              h2.newsSingle-Article_TitleH2
-                | We upgraded model 3000 line preamplifier to the mk2 version.
-            = image_tag '/news/images/news-Thumb_m3000.png', :class => 'newsSingle-Article_ThumbImage', :alt => ''
-            .newsSingle-Article_LinkArrow
-              = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-Article_LinkArrowIcon'
-      li.newsSingle-Article_ListItem
-        article.newsSingle-Article
-          = link_to '/' do
-            .newsSingle-Article_Heading
-              span.newsSingle-Article_Date
-                | 2017.6.19
-              h2.newsSingle-Article_TitleH2
-                | We upgraded model 3000 line preamplifier to the mk2 version.
-            = image_tag '/news/images/news-Thumb_catalogue2017.png', :class => 'newsSingle-Article_ThumbImage', :alt => ''
-            .newsSingle-Article_LinkArrow
-              = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-Article_LinkArrowIcon'
-      li.newsSingle-Article_ListItem
-        article.newsSingle-Article
-          = link_to '/' do
-            .newsSingle-Article_Heading
-              span.newsSingle-Article_Date
-                | 2017.6.19
-              h2.newsSingle-Article_TitleH2
-                | We upgraded model 3000 line preamplifier to the mk2 version.
-            = image_tag '/news/images/news-Thumb_Award.png', :class => 'newsSingle-Article_ThumbImage', :alt => ''
-            .newsSingle-Article_LinkArrow
-              = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-Article_LinkArrowIcon'
-  nav.newsSingle-BackToTop
-    = link_to '#top' do
-      = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'newsSingle-BackToTop_Icon'
-      span.newsSingle-BackToTop_Text
-        | TOP OF PAGE
+  article.newsSingle-Articles
+    .newsSingle-Article_Heading
+      span.newsSingle-Article_Date
+        | 2017.6.19
+      h1.newsSingle-Article_TitleH1
+        | We upgraded model 3000 line preamplifier to the mk2 version.
+    figure
+      = image_tag '/news/single/images/newsSingle-Thumb_m3000.png', :class => 'newsSingle-Article_ThumbImage', :alt => ''
+    .newsSingle-Article_NewsBody
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .newsSingle-Article_RelevantLink
+      = link_to 'See this product', '/products/single'
+  nav.newsSingle-SubNav
+    ol.newsSingle-SubNav_List
+      li.newsSingle-SubNav_ListItem
+        = link_to '/news', :class => 'newsSingle-SubNav_BackToNewsList' do
+          .newsSingle-SubNav_LinkWrapper
+            = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'newsSingle-SubNav_BackToNewsList_LinkArrowIcon'
+            span
+              | News list
+      li.newsSingle-SubNav_ListItem
+        = link_to '#top', :class => 'newsSingle-SubNav_BackToTop' do
+          = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'newsSingle-BackToTop_Icon'
+          span.newsSingle-BackToTop_Text
+            | TOP OF PAGE
+      li.newsSingle-SubNav_ListItem

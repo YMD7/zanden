@@ -14,6 +14,16 @@ smoothScroll();
 // Header and Footer
 const layout = require('layouts/layout');
 
+
+// ---------------------------------------
+//                              + pages +
+// ---------------------------------------
+// products - index
+const products = require('products/products');
+
+// ---------------------------------------
+
 window.onload = function () {
   layout();
+  products();
 }

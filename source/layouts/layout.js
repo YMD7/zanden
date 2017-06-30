@@ -5,6 +5,7 @@ module.exports = function() {
   // ---------------------------------------
   // Toggle Nav Container
   const toggleMenu = function() {
+    console.log('click');
     const container = u.u('.st-Header_NavContaier'),
           menuIcon  = u.u('.st-Header_NavMenuSVG'),
           iconSrc   = menuIcon.attr('src'),
@@ -30,10 +31,10 @@ module.exports = function() {
         setTimeout(() => {
           resolve("OK");
         }, 500)
-      })
+      });
       promise.then(() => {
         container.addClass('hidden');
-      })
+      });
     }
   }
   u.u('.st-Header_NavMenuIcon, .st-Header_NavMenuCloseButton').on('click', function(e){

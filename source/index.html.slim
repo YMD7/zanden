@@ -5,7 +5,7 @@ main
         h1.index-Topics_HeroH1
           = image_tag '/images/index-Topics_HeroImage.png', :class => 'index-Topics_HeroImage', :alt => "Model 3000 ~ the new line amplifier ~"
         .index-Topics_HeroLinkArrow
-          = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'index-Topics_HeroLinkArrowIcon'
+          = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'index-Topics_HeroLinkArrowIcon'
     ol.index-Topics_Pickups
       li
         article.index-Topics_PickupItem
@@ -13,39 +13,35 @@ main
             h2.index-Topics_PickupItemH2
               = image_tag '/images/index-Topics_PickupFirstImage.png', :class => 'index-Topics_PickupItemImage', :alt => "Product Catalogue 2017 SS"
             .index-Topics_PickupItemLinkArrow
-              = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'index-Topics_PickupItemLinkArrowIcon'
+              = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'index-Topics_PickupItemLinkArrowIcon'
     .index-Topics_SeeMore
       = link_to 'news' do
         .index-Topics_SeeMoreWrapper
           span
             | See more
-          = image_tag '/sitewide/images/icon-LinkArrow.svg', :class => 'index-Topics_SeeMoreLinkArrowIcon'
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Topics_SeeMoreLinkArrowIcon'
   nav.index-Menu
     ul.index-Menu_List
       li.index-Menu_ListItem
-        = link_to '/' do
-        .index-Menu_LinkWrapper
+        = link_to '/products', :class => 'index-Menu_Link' do
           span
             | Products
-          = image_tag '/sitewide/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
       li.index-Menu_ListItem
-        = link_to '/' do
-        .index-Menu_LinkWrapper
+        = link_to '/brand', :class => 'index-Menu_Link' do
           span
             | Our Brand
-          = image_tag '/sitewide/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
       li.index-Menu_ListItem
-        = link_to '/' do
-        .index-Menu_LinkWrapper
+        = link_to '/distribution', :class => 'index-Menu_Link' do
           span
             | Distributors
-          = image_tag '/sitewide/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
       li.index-Menu_ListItem
-        = link_to '/' do
-        .index-Menu_LinkWrapper
+        = link_to '/contact', :class => 'index-Menu_Link' do
           span
             | Contact
-          = image_tag '/sitewide/images/icon-LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
+          = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
   section.index-Facebook
     .index-Facebook_Container
       h4.index-Facebook_H4
@@ -58,6 +54,6 @@ main
                 | Zanden
   nav.index-BackToTop
     = link_to '#top' do
-      = image_tag '/sitewide/images/icon-LinkArrowO.svg', :class => 'index-BackToTop_Icon'
+      = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'index-BackToTop_Icon'
       span.index-BackToTop_Text
         | TOP OF PAGE
