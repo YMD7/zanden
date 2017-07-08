@@ -1993,14 +1993,14 @@ h4.index-Facebook_H4 {
   letter-spacing: 1.2px; }
 
 .distribution-District {
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   padding: 0 18px; }
 
 .distribution-District:last-child {
   margin-bottom: 0; }
 
 .distribution-District_NameH3 {
-  padding: 18px 0;
+  padding: 24px 0 12px;
   color: #222222;
   font-size: 17px;
   text-align: center;
