@@ -24,7 +24,7 @@
 }
 .productsIndex-Product_ListItem {
   border-bottom: 2px solid $gray-white;
-  padding: 6px 18px;
+  padding: 18px 18px 0px;
 }
 .productsIndex-Product > a {
   display: flex;
@@ -35,7 +35,6 @@
 }
 .productsIndex-Product_CategoryName {
   color: $black;
-  font-family: $palatino;
   font-size: 12px;
 }
 .productsIndex-Product_ProductNameH3 {
@@ -191,7 +190,7 @@
 .productsIndex-Awards_NoticeNLP {
   display: block;
   border: 1px dashed $light-gray;
-  margin-top: 6px;
+  margin-top: 12px;
   padding: 4px;
   color: $gray;
   font-size: 9px;
@@ -301,19 +300,40 @@
   height: 100%;
 }
 
-// back to top
+// sub navigation
 
-.productsIndex-BackToTop {
+.productsIndex-SubNav {
+  border-top: 2px solid $gray-white;
+  margin: 78px 0 42px;
+  padding-top: 12px;
+}
+.productsIndex-SubNav_List {
+  display: flex;
+}
+.productsIndex-SubNav_ListItem {
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 24px 0 42px;
-  padding-top: 60px;
 }
-.productsIndex-BackToTop > a {
+.productsIndex-SubNav_BackToNewsList {
+  display: inline-block;
+  border-bottom: 1px solid $gray;
+  padding: 6px 3px 0 0;
+  color: $gray-black;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.productsIndex-SubNav_BackToNewsList_LinkArrowIcon {
+  transform: rotate(-90deg);
+  width: 11px;
+  height: 7px;
+  margin-right: 1px;
+}
+.productsIndex-SubNav_BackToTop {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 .productsIndex-BackToTop_Icon {
   width: 30px;

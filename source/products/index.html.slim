@@ -814,8 +814,12 @@ main
             | Close
           = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'productsIndex-Awards_CloseButtonArrowIcon'
           .productsIndex-Awards_ClickArea
-  nav.productsIndex-BackToTop
-    = link_to '#top' do
-      = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-BackToTop_Icon'
-      span.productsIndex-BackToTop_Text
-        | TOP OF PAGE
+  nav.productsIndex-SubNav
+    ol.productsIndex-SubNav_List
+      li.productsIndex-SubNav_ListItem
+      li.productsIndex-SubNav_ListItem
+        = link_to '#top', :class => 'productsIndex-SubNav_BackToTop' do
+          = image_tag '/sitewide/images/icons/LinkArrowO.svg', :class => 'productsIndex-BackToTop_Icon'
+          span.productsIndex-BackToTop_Text
+            | TOP OF PAGE
+      li.productsIndex-SubNav_ListItem

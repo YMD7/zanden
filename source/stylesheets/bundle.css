@@ -318,7 +318,7 @@ table {
 a {
   text-decoration: none; }
 
-ul, ol {
+p, ul, ol {
   margin: 0;
   padding: 0; }
 
@@ -351,7 +351,7 @@ main {
   width: 100vw;
   height: 100vh; }
 
-header {
+.st-Header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -983,7 +983,7 @@ h4.index-Facebook_H4 {
 
 .productsIndex-Product_ListItem {
   border-bottom: 2px solid #f6f6f6;
-  padding: 6px 18px; }
+  padding: 18px 18px 0px; }
 
 .productsIndex-Product > a {
   display: -webkit-box;
@@ -999,7 +999,6 @@ h4.index-Facebook_H4 {
 
 .productsIndex-Product_CategoryName {
   color: #222222;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
   font-size: 12px; }
 
 .productsIndex-Product_ProductNameH3 {
@@ -1202,7 +1201,7 @@ h4.index-Facebook_H4 {
 .productsIndex-Awards_NoticeNLP {
   display: block;
   border: 1px dashed #eeeeee;
-  margin-top: 6px;
+  margin-top: 12px;
   padding: 4px;
   color: #aaaaaa;
   font-size: 9px;
@@ -1324,7 +1323,452 @@ h4.index-Facebook_H4 {
   width: 100%;
   height: 100%; }
 
-.productsIndex-BackToTop {
+.productsIndex-SubNav {
+  border-top: 2px solid #f6f6f6;
+  margin: 78px 0 42px;
+  padding-top: 12px; }
+
+.productsIndex-SubNav_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.productsIndex-SubNav_ListItem {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.productsIndex-SubNav_BackToNewsList {
+  display: inline-block;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 6px 3px 0 0;
+  color: #666666;
+  font-size: 12px;
+  letter-spacing: 0.5px; }
+
+.productsIndex-SubNav_BackToNewsList_LinkArrowIcon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 11px;
+  height: 7px;
+  margin-right: 1px; }
+
+.productsIndex-SubNav_BackToTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.productsIndex-BackToTop_Icon {
+  width: 30px;
+  height: 30px; }
+
+.productsIndex-BackToTop_Text {
+  margin-top: 4px;
+  color: #666666;
+  font-size: 10px; }
+
+.productsSingle-Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 3px solid #f6f6f6;
+  padding: 30px 18px 12px;
+  color: #222222;
+  font-size: 16px; }
+
+.productsSingle-Header_LineName {
+  display: inline-block;
+  padding-top: 30px;
+  text-align: center; }
+
+.productsSingle-Product_LineNameLogo {
+  height: 18px; }
+
+.productsSingle-Product {
+  padding: 18px 18px; }
+
+.productsSingle-Product_Hero {
+  margin-bottom: 36px; }
+
+.productsSingle-Product_ProductNameH1 {
+  margin-bottom: 36px;
+  color: #222222;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: 0.5px; }
+
+.productsSingle-Product_ProductCategoryName {
+  color: #222222;
+  font-size: 14px; }
+
+.productsSingle-Product_HeroImage {
+  width: 100%; }
+
+.productsSingle-Product_Introduction {
+  margin-bottom: 60px; }
+
+.productsSingle-Product_IntroductionH2 {
+  margin-bottom: 18px;
+  color: #aaaaaa;
+  font-size: 17px;
+  letter-spacing: 0.8px; }
+
+.productsSingle-Product_IntroductionPragraph {
+  color: #222222;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.2px; }
+
+.productsSingle-Product_Specification {
+  margin-bottom: 60px; }
+
+.productsSingle-Product_SpecificationH2 {
+  margin-bottom: 18px;
+  color: #aaaaaa;
+  font-size: 17px;
+  letter-spacing: 0.8px; }
+
+.productsSingle-Product_GridRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #eeeeee;
+  padding: 6px 0;
+  font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, 游ゴシック体, "Yu Gothic", YuGothic, "\30D2\30E9\30AE\30CE\89D2\30B4\30B7\30C3\30AF   Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+  font-size: 13px; }
+
+.productsSingle-Product_GridColumnLeft {
+  width: 35%;
+  padding-right: 5%; }
+
+.productsSingle-Product_GridColumnRight {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.productsSingle-Awards {
+  margin-top: 60px; }
+
+.productsSingle-Awards_H2 {
+  margin-bottom: 18px;
+  color: #aaaaaa;
+  font-size: 17px;
+  letter-spacing: 0.8px; }
+
+.productsSingle-Awards_ListItem {
+  padding-bottom: 12px; }
+
+.productsSingle-Awards_TimelineContainer {
+  margin: 24px 0; }
+
+.productsSingle-Awards_TimelineListItem {
+  min-height: 100px;
+  margin-bottom: 6px; }
+
+.productsSingle-Awards_AwardsYearContainer {
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 2px;
+  font-size: 12px;
+  letter-spacing: 0.5px; }
+
+.productsSingle-Awards_AwardsYear {
+  color: #666666; }
+
+.productsSingle-Awards_AwardsFor {
+  margin-left: 18px;
+  color: #aaaaaa; }
+
+.productsSingle-Awards_AwardsListInYear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.productsSingle-Awards_AwardsListItemInYear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 12px; }
+
+.productsSingle-Awards_AwardsTitleContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.productsSingle-Awards_AwardsTitleH3 {
+  padding-bottom: 6px;
+  color: #666666;
+  font-size: 16px; }
+
+.productsSingle-Awards_AwardsAuthorityLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.productsSingle-Awards_AwardsAuthorityH4 {
+  color: #3399FF;
+  font-size: 12px; }
+
+.productsSingle-Awards_ExternalLinkIcon {
+  margin: 2px 0 0 6px;
+  color: #666666;
+  font-size: 11px; }
+
+.productsSingle-Awards_AwardsTitleLogoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 72px; }
+
+.productsSingle-Awards_AwardsTitleLogoImage {
+  width: 72px;
+  height: 72px; }
+
+.productsSingle-SubNav {
+  border-top: 2px solid #f6f6f6;
+  margin: 30px 0 42px;
+  padding-top: 12px; }
+
+.productsSingle-SubNav_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.productsSingle-SubNav_ListItem {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.productsSingle-SubNav_BackToNewsList {
+  display: inline-block;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 6px 3px 0 0;
+  color: #666666;
+  font-size: 12px;
+  letter-spacing: 0.5px; }
+
+.productsSingle-SubNav_BackToNewsList_LinkArrowIcon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 11px;
+  height: 7px;
+  margin-right: 1px; }
+
+.productsSingle-SubNav_BackToTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.productsSingle-BackToTop_Icon {
+  width: 30px;
+  height: 30px; }
+
+.productsSingle-BackToTop_Text {
+  margin-top: 4px;
+  color: #666666;
+  font-size: 10px; }
+
+.brand-Header {
+  border-bottom: 2px solid #f6f6f6;
+  padding: 30px 18px;
+  color: #222222;
+  font-size: 16px; }
+
+.brand-Philosophy_H1 {
+  padding: 42px 0 6px;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.8px; }
+
+.brand-Philosophy_H2 {
+  padding-bottom: 36px;
+  color: #222222;
+  font-size: 34px;
+  text-align: center; }
+
+.brand-Philosophy_Figure {
+  padding: 0 18px 60px; }
+
+.brand-Philosophy_FigureImage {
+  width: 100%; }
+
+.brand-Philosophy_ParagraphContainer {
+  background-color: #f6f6f6;
+  padding: 60px 18px 36px; }
+
+.brand-Philosophy_Paragraph {
+  margin-bottom: 24px;
+  color: #222222;
+  font-size: 15px;
+  line-height: 140%; }
+
+.brand-Craft {
+  margin-bottom: 60px; }
+
+.brand-Craft_H1 {
+  padding-top: 60px;
+  color: #222222;
+  font-size: 34px;
+  text-align: center; }
+
+.brand-Craft_Figure {
+  padding: 60px 20%; }
+
+.brand-Craft_FigureImage {
+  width: 100%; }
+
+.brand-Craft_Article {
+  padding: 0 18px; }
+
+.brand-Craft_H2 {
+  margin-bottom: 30px;
+  color: #222222;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.8px; }
+
+.brand-Craft_Paragraph {
+  margin-bottom: 30px;
+  color: #222222;
+  font-size: 15px;
+  line-height: 140%; }
+
+.brand-Divider {
+  background-color: #000;
+  width: 100%;
+  height: 192px;
+  text-align: right; }
+
+.brand-Divider_Image {
+  height: 100%; }
+
+.brand-Awards {
+  margin-top: 60px; }
+
+.brand-Awards_H1 {
+  margin-bottom: 42px;
+  color: #222222;
+  font-size: 34px;
+  text-align: center; }
+
+.brand-Awards_List {
+  padding: 0 18px; }
+
+.brand-Awards_ListItem {
+  overflow: hidden;
+  padding-bottom: 12px; }
+
+.brand-Awards_ListItem.open {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-name: productsIndex-Awards_ListItem-open;
+          animation-name: productsIndex-Awards_ListItem-open;
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  max-height: 100vh; }
+
+.brand-Awards_ListItem.close {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-name: productsIndex-Awards_ListItem-close;
+          animation-name: productsIndex-Awards_ListItem-close;
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  max-height: 45px; }
+
+.brand-Awards_ListItem.hidden {
+  max-height: 45px; }
+
+@keyframes productsIndex-Awards_ListItem-open {
+  from {
+    max-height: 45px; }
+  to {
+    max-height: 100vh; } }
+
+@keyframes productsIndex-Awards_ListItem-close {
+  from {
+    max-height: 100vh; }
+  to {
+    max-height: 45px; } }
+
+.brand-Awards_ProductNames {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #666666;
+  padding: 18px 0; }
+
+.brand-Awards_ProductNameH4 {
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+.brand-Awards_ProductCategoryContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.brand-Awards_ProductCategory {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #aaaaaa;
+  font-size: 12px;
+  letter-spacing: 0.5px; }
+
+.brand-Awards_PlusIconContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1334,26 +1778,197 @@ h4.index-Facebook_H4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 24px 0 42px;
-  padding-top: 60px; }
+  width: 36px;
+  text-align: center; }
 
-.productsIndex-BackToTop > a {
+.brand-Awards_PlusIcon {
+  width: 10px; }
+
+.brand-Awards_ListItem.show .brand-Awards_PlusIcon {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.brand-Awards_NoticeNLP {
+  display: block;
+  border: 1px dashed #eeeeee;
+  margin-top: 12px;
+  padding: 4px;
+  color: #aaaaaa;
+  font-size: 9px;
+  text-align: center; }
+
+.brand-Awards_ThumbsContainer {
+  text-align: center; }
+
+.brand-Awards_Thumb {
+  width: 240px; }
+
+.brand-Awards_NoticeNoImage {
+  display: block;
+  border: 1px dashed #eeeeee;
+  margin-top: 6px;
+  padding: 24px;
+  color: #aaaaaa;
+  font-size: 18px;
+  text-align: center; }
+
+.brand-Awards_SeeThisProductContainer {
+  padding: 6px;
+  text-align: center; }
+
+.brand-Awards_SeeThisProduct {
+  display: inline-block;
+  border: 1px solid #aaaaaa;
+  padding: 2px 12px 1px;
+  color: #666666;
+  font-size: 10px; }
+
+.brand-Awards_TimelineContainer {
+  margin: 24px 0; }
+
+.brand-Awards_TimelineListItem {
+  min-height: 100px;
+  margin-bottom: 48px; }
+
+.brand-Awards_AwardsYearContainer {
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 2px;
+  font-size: 12px;
+  letter-spacing: 0.5px; }
+
+.brand-Awards_AwardsYear {
+  color: #666666; }
+
+.brand-Awards_AwardsFor {
+  margin-left: 18px;
+  color: #aaaaaa; }
+
+.brand-Awards_AwardsListInYear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.brand-Awards_AwardsListItemInYear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 12px; }
+
+.brand-Awards_AwardsTitleContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.brand-Awards_AwardsTitleH3 {
+  padding-bottom: 6px;
+  color: #666666;
+  font-size: 16px; }
+
+.brand-Awards_AwardsAuthorityLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.brand-Awards_AwardsAuthorityH5 {
+  color: #3399FF;
+  font-size: 12px; }
+
+.brand-Awards_ExternalLinkIcon {
+  margin: 2px 0 0 6px;
+  color: #666666;
+  font-size: 11px; }
+
+.brand-Awards_AwardsTitleLogoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 72px; }
+
+.brand-Awards_AwardsTitleLogoImage {
+  width: 72px;
+  height: 72px; }
+
+.brand-Awards_CloseButton {
+  position: relative;
+  display: block;
+  background-color: #f6f6f6;
+  padding: 12px 0;
+  color: #666666;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px; }
+
+.brand-Awards_CloseButtonArrowIcon {
+  width: 10px;
+  margin-left: 4px; }
+
+.brand-Awards_ClickArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.brand-SubNav {
+  border-top: 2px solid #f6f6f6;
+  margin: 78px 0 42px;
+  padding-top: 12px; }
+
+.brand-SubNav_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.brand-SubNav_ListItem {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.brand-SubNav_BackToNewsList {
+  display: inline-block;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 6px 3px 0 0;
+  color: #666666;
+  font-size: 12px;
+  letter-spacing: 0.5px; }
+
+.brand-SubNav_BackToNewsList_LinkArrowIcon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 11px;
+  height: 7px;
+  margin-right: 1px; }
+
+.brand-SubNav_BackToTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
-.productsIndex-BackToTop_Icon {
+.brand-BackToTop_Icon {
   width: 30px;
   height: 30px; }
 
-.productsIndex-BackToTop_Text {
+.brand-BackToTop_Text {
   margin-top: 4px;
   color: #666666;
   font-size: 10px; }

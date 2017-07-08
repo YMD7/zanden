@@ -21,9 +21,13 @@ const layout = require('layouts/layout');
 // products - index
 const products = require('products/products');
 
+// brand
+const brand = require('brand/brand');
+
 // ---------------------------------------
 
 window.onload = function () {
   layout();
   products();
+  brand();
 }

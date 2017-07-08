@@ -1,0 +1,323 @@
+// ----------------------------------------
+//                               + brand +
+// ----------------------------------------
+
+// header
+
+.brand-Header {
+  border-bottom: 2px solid $gray-white;
+  padding: 30px 18px;
+  color: $black;
+  font-size: 16px;
+}
+
+// philosophy
+
+.brand-Philosophy_H1 {
+  padding: 42px 0 6px;
+  color: $black;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+.brand-Philosophy_H2 {
+  padding-bottom: 36px;
+  color: $black;
+  font-size: 34px;
+  text-align: center;
+}
+.brand-Philosophy_Figure {
+  padding: 0 18px 60px;
+}
+.brand-Philosophy_FigureImage {
+  width: 100%;
+}
+.brand-Philosophy_ParagraphContainer {
+  background-color: $gray-white;
+  padding: 60px 18px 36px;
+}
+.brand-Philosophy_Paragraph {
+  margin-bottom: 24px;
+  color: $black;
+  font-size: 15px;
+  line-height: 140%;
+}
+
+// craft
+
+.brand-Craft {
+  margin-bottom: 60px;
+}
+.brand-Craft_H1 {
+  padding-top: 60px;
+  color: $black;
+  font-size: 34px;
+  text-align: center;
+}
+.brand-Craft_Figure {
+  padding: 60px 20%;
+}
+.brand-Craft_FigureImage {
+  width: 100%;
+}
+.brand-Craft_Article {
+  padding: 0 18px;
+}
+.brand-Craft_H2 {
+  margin-bottom: 30px;
+  color: $black;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+.brand-Craft_Paragraph {
+  margin-bottom: 30px;
+  color: $black;
+  font-size: 15px;
+  line-height: 140%;
+}
+
+// divider
+
+.brand-Divider {
+  background-color: #000;
+  width: 100%;
+  height: 192px;
+  text-align: right;
+}
+.brand-Divider_Image {
+  height: 100%;
+}
+
+// awards
+
+.brand-Awards {
+  margin-top: 60px;
+}
+.brand-Awards_H1 {
+  margin-bottom: 42px;
+  color: $black;
+  font-size: 34px;
+  text-align: center;
+}
+.brand-Awards_List {
+  padding: 0 18px;
+}
+.brand-Awards_ListItem {
+  overflow: hidden;
+  padding-bottom: 12px;
+}
+.brand-Awards_ListItem.open {
+  animation-duration: 0.5s;
+  animation-name: productsIndex-Awards_ListItem-open;
+  animation-timing-function: $ease-out-quint;
+  max-height: 100vh;
+}
+.brand-Awards_ListItem.close {
+  animation-duration: 0.5s;
+  animation-name: productsIndex-Awards_ListItem-close;
+  animation-timing-function: $ease-out-quint;
+  max-height: 45px;
+}
+.brand-Awards_ListItem.hidden {
+  max-height: 45px;
+}
+@keyframes productsIndex-Awards_ListItem-open {
+  from { max-height: 45px; } to { max-height: 100vh; }
+}
+@keyframes productsIndex-Awards_ListItem-close {
+  from { max-height: 100vh; } to { max-height: 45px; }
+}
+.brand-Awards_ProductNames {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid $gray-black;
+  padding: 18px 0;
+}
+.brand-Awards_ProductNameH4 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.brand-Awards_ProductCategoryContainer {
+  flex: 1;
+  display: flex;
+}
+.brand-Awards_ProductCategory {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: $gray;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.brand-Awards_PlusIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  text-align: center;
+}
+.brand-Awards_PlusIcon {
+  width: 10px;
+}
+.brand-Awards_ListItem.show .brand-Awards_PlusIcon {
+  transform: rotate(45deg);
+}
+.brand-Awards_NoticeNLP {
+  display: block;
+  border: 1px dashed $light-gray;
+  margin-top: 12px;
+  padding: 4px;
+  color: $gray;
+  font-size: 9px;
+  text-align: center;
+}
+.brand-Awards_ThumbsContainer {
+  text-align: center;
+}
+.brand-Awards_Thumb {
+  width: 240px;
+}
+.brand-Awards_NoticeNoImage {
+  display: block;
+  border: 1px dashed $light-gray;
+  margin-top: 6px;
+  padding: 24px;
+  color: $gray;
+  font-size: 18px;
+  text-align: center;
+}
+.brand-Awards_SeeThisProductContainer {
+  padding: 6px;
+  text-align: center;
+}
+.brand-Awards_SeeThisProduct {
+  display: inline-block;
+  border: 1px solid $gray;
+  padding: 2px 12px 1px;
+  color: $gray-black;
+  font-size: 10px;
+}
+.brand-Awards_TimelineContainer {
+  margin: 24px 0;
+}
+.brand-Awards_TimelineListItem {
+  min-height: 100px;
+  margin-bottom: 48px;
+}
+.brand-Awards_AwardsYearContainer {
+  border-bottom: 1px solid $gray;
+  padding-bottom: 2px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.brand-Awards_AwardsYear {
+  color: $gray-black;
+}
+.brand-Awards_AwardsFor {
+  margin-left: 18px;
+  color: $gray;
+}
+.brand-Awards_AwardsListInYear {
+  display: flex;
+  flex-direction: column;
+}
+.brand-Awards_AwardsListItemInYear {
+  display: flex;
+  padding-top: 12px;
+}
+.brand-Awards_AwardsTitleContainer {
+  flex: 1;
+}
+.brand-Awards_AwardsTitleH3 {
+  padding-bottom: 6px;
+  color: $gray-black;
+  font-size: 16px;
+}
+.brand-Awards_AwardsAuthorityLink {
+  display: flex;
+}
+.brand-Awards_AwardsAuthorityH5 {
+  color: $link-blue;
+  font-size: 12px;
+}
+.brand-Awards_ExternalLinkIcon {
+  margin: 2px 0 0 6px;
+  color: $gray-black;
+  font-size: 11px;
+}
+.brand-Awards_AwardsTitleLogoContainer {
+  display: flex;
+  width: 72px;
+}
+.brand-Awards_AwardsTitleLogoImage {
+  width: 72px;
+  height: 72px;
+}
+.brand-Awards_CloseButton {
+  position: relative;
+  display: block;
+  background-color: $gray-white;
+  padding: 12px 0;
+  color: $gray-black;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.brand-Awards_CloseButtonArrowIcon {
+  width: 10px;
+  margin-left: 4px;
+}
+.brand-Awards_ClickArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// sub navigation
+
+.brand-SubNav {
+  border-top: 2px solid $gray-white;
+  margin: 78px 0 42px;
+  padding-top: 12px;
+}
+.brand-SubNav_List {
+  display: flex;
+}
+.brand-SubNav_ListItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-SubNav_BackToNewsList {
+  display: inline-block;
+  border-bottom: 1px solid $gray;
+  padding: 6px 3px 0 0;
+  color: $gray-black;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.brand-SubNav_BackToNewsList_LinkArrowIcon {
+  transform: rotate(-90deg);
+  width: 11px;
+  height: 7px;
+  margin-right: 1px;
+}
+.brand-SubNav_BackToTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brand-BackToTop_Icon {
+  width: 30px;
+  height: 30px;
+}
+.brand-BackToTop_Text {
+  margin-top: 4px;
+  color: $gray-black;
+  font-size: 10px;
+}
