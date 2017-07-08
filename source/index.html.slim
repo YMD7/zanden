@@ -1,7 +1,7 @@
 main
   section.index-Topics
     article.index-Topics_Hero
-      = link_to '/news/single' do
+      = link_to '/news/single/' do
         h1.index-Topics_HeroH1
           = image_tag '/images/Topics_HeroImage.png', :class => 'index-Topics_HeroImage', :alt => "Model 3000 ~ the new line amplifier ~"
         .index-Topics_HeroLinkArrow
@@ -9,7 +9,7 @@ main
     ol.index-Topics_Pickups
       li
         article.index-Topics_PickupItem
-          = link_to '/news/single' do
+          = link_to '/news/single/' do
             h2.index-Topics_PickupItemH2
               = image_tag '/images/Topics_PickupFirstImage.png', :class => 'index-Topics_PickupItemImage', :alt => "Product Catalogue 2017 SS"
             .index-Topics_PickupItemLinkArrow
@@ -23,22 +23,22 @@ main
   nav.index-Menu
     ul.index-Menu_List
       li.index-Menu_ListItem
-        = link_to '/products', :class => 'index-Menu_Link' do
+        = link_to '/products/', :class => 'index-Menu_Link' do
           span
             | Products
           = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
       li.index-Menu_ListItem
-        = link_to '/brand', :class => 'index-Menu_Link' do
+        = link_to '/brand/', :class => 'index-Menu_Link' do
           span
             | Our Brand
           = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
       li.index-Menu_ListItem
-        = link_to '/distribution', :class => 'index-Menu_Link' do
+        = link_to '/distribution/', :class => 'index-Menu_Link' do
           span
             | Distributors
           = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
       li.index-Menu_ListItem
-        = link_to '/contact', :class => 'index-Menu_Link' do
+        = link_to '/contact/', :class => 'index-Menu_Link' do
           span
             | Contact
           = image_tag '/sitewide/images/icons/LinkArrow.svg', :class => 'index-Menu_LinkArrowIcon'
