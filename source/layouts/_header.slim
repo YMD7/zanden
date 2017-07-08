@@ -1,6 +1,6 @@
 header#top.st-Header
   .st-Header_Logo
-    = link_to '/', :class => 'st-Header_LogoLink' do
+    = link_to '/', :class => 'st-Header_LogoLink', :'data-tor-smoothScroll' => 'noSmooth' do
       = image_tag '/sitewide/images/logo.svg', :class => "st-Header_LogoSVG"
   nav.st-Header_Nav
     button.st-Header_NavMenuIcon
@@ -8,15 +8,15 @@ header#top.st-Header
     .st-Header_NavContaier.hidden
       ol.st-Header_NavList
         li.st-Header_NavListItem
-          = link_to 'Home', '/'
+          = link_to 'Home', '/', :'data-tor-smoothScroll' => 'noSmooth'
         li.st-Header_NavListItem
-          = link_to 'Products', '/products/'
+          = link_to 'Products', '/products/', :'data-tor-smoothScroll' => 'noSmooth'
         li.st-Header_NavListItem
-          = link_to 'Our Brand', '/brand/'
+          = link_to 'Our Brand', '/brand/', :'data-tor-smoothScroll' => 'noSmooth'
         li.st-Header_NavListItem
-          = link_to 'Distributors', '/distribution/'
+          = link_to 'Distributors', '/distribution/', :'data-tor-smoothScroll' => 'noSmooth'
         li.st-Header_NavListItem
-          = link_to 'Contact', '/contact/'
+          = link_to 'Contact', '/contact/', :'data-tor-smoothScroll' => 'noSmooth'
       .st-Header_NavMenuClose
         button.st-Header_NavMenuCloseButton
           | Close
