@@ -509,7 +509,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #666666;
+  border: 1px solid #555555;
   background-color: transparent;
   padding: 3px 10px;
   font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, 游ゴシック体, "Yu Gothic", YuGothic, "\30D2\30E9\30AE\30CE\89D2\30B4\30B7\30C3\30AF   Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif; }
@@ -558,7 +558,7 @@ footer {
   text-align: center; }
 
 .st-Footer_CopyrightText {
-  color: #aaaaaa;
+  color: #888888;
   font-size: 10px; }
 
 .index-Topics_Hero {
@@ -676,9 +676,9 @@ footer {
 
 .index-Topics_SeeMore > a {
   display: inline-block;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding: 6px 0px 0px 3px;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -709,7 +709,7 @@ footer {
   display: block;
   width: 100%;
   padding: 18px 0;
-  color: #666666;
+  color: #555555;
   text-align: center; }
 
 .index-Menu_Link span {
@@ -734,7 +734,7 @@ footer {
 
 h4.index-Facebook_H4 {
   margin: 24px 0;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 20px;
   text-align: center; }
 
@@ -777,7 +777,7 @@ h4.index-Facebook_H4 {
 
 .index-BackToTop_Text {
   margin-top: 4px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .newsIndex-Heading_H1 {
@@ -857,7 +857,7 @@ h4.index-Facebook_H4 {
 
 .newsIndex-BackToTop_Text {
   margin-top: 4px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .newsSingle-Heading_H3 {
@@ -897,9 +897,9 @@ h4.index-Facebook_H4 {
   text-align: center; }
 
 .newsSingle-Article_RelevantLink > a {
-  border: 1px solid #aaaaaa;
+  border: 1px solid #888888;
   padding: 10px 38px 7px;
-  color: #666666;
+  color: #555555;
   font-size: 18px;
   letter-spacing: 0.5px; }
 
@@ -929,9 +929,9 @@ h4.index-Facebook_H4 {
 
 .newsSingle-SubNav_BackToNewsList {
   display: inline-block;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding: 6px 3px 0 0;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -960,7 +960,7 @@ h4.index-Facebook_H4 {
 
 .newsSingle-BackToTop_Text {
   margin-top: 4px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .productsIndex-Products {
@@ -1069,12 +1069,12 @@ h4.index-Facebook_H4 {
 
 .productsIndex-Catalogue_LinkTextWrapper {
   padding-top: 8px;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   text-align: center; }
 
 .productsIndex-Catalogue_LinkTextWrapper > hr {
-  border-top: 1px solid #666666;
+  border-top: 1px solid #555555;
   border-left: none;
   border-right: none;
   border-bottom: none;
@@ -1146,7 +1146,7 @@ h4.index-Facebook_H4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #555555;
   padding: 18px 0; }
 
 .productsIndex-Awards_ProductNameH4 {
@@ -1174,7 +1174,7 @@ h4.index-Facebook_H4 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -1203,7 +1203,7 @@ h4.index-Facebook_H4 {
   border: 1px dashed #eeeeee;
   margin-top: 12px;
   padding: 4px;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 9px;
   text-align: center; }
 
@@ -1218,7 +1218,7 @@ h4.index-Facebook_H4 {
   border: 1px dashed #eeeeee;
   margin-top: 6px;
   padding: 24px;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 18px;
   text-align: center; }
 
@@ -1228,9 +1228,9 @@ h4.index-Facebook_H4 {
 
 .productsIndex-Awards_SeeThisProduct {
   display: inline-block;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #888888;
   padding: 2px 12px 1px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .productsIndex-Awards_TimelineContainer {
@@ -1241,17 +1241,17 @@ h4.index-Facebook_H4 {
   margin-bottom: 48px; }
 
 .productsIndex-Awards_AwardsYearContainer {
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding-bottom: 2px;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
 .productsIndex-Awards_AwardsYear {
-  color: #666666; }
+  color: #555555; }
 
 .productsIndex-Awards_AwardsFor {
   margin-left: 18px;
-  color: #aaaaaa; }
+  color: #888888; }
 
 .productsIndex-Awards_AwardsListInYear {
   display: -webkit-box;
@@ -1275,7 +1275,7 @@ h4.index-Facebook_H4 {
 
 .productsIndex-Awards_AwardsTitleH3 {
   padding-bottom: 6px;
-  color: #666666;
+  color: #555555;
   font-size: 16px; }
 
 .productsIndex-Awards_AwardsAuthorityLink {
@@ -1289,7 +1289,7 @@ h4.index-Facebook_H4 {
 
 .productsIndex-Awards_ExternalLinkIcon {
   margin: 2px 0 0 6px;
-  color: #666666;
+  color: #555555;
   font-size: 11px; }
 
 .productsIndex-Awards_AwardsTitleLogoContainer {
@@ -1307,7 +1307,7 @@ h4.index-Facebook_H4 {
   display: block;
   background-color: #f6f6f6;
   padding: 12px 0;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   text-align: center;
   letter-spacing: 1px; }
@@ -1349,9 +1349,9 @@ h4.index-Facebook_H4 {
 
 .productsIndex-SubNav_BackToNewsList {
   display: inline-block;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding: 6px 3px 0 0;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -1380,7 +1380,7 @@ h4.index-Facebook_H4 {
 
 .productsIndex-BackToTop_Text {
   margin-top: 4px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .productsSingle-Header {
@@ -1429,7 +1429,7 @@ h4.index-Facebook_H4 {
 
 .productsSingle-Product_IntroductionH2 {
   margin-bottom: 18px;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 17px;
   letter-spacing: 0.8px; }
 
@@ -1444,7 +1444,7 @@ h4.index-Facebook_H4 {
 
 .productsSingle-Product_SpecificationH2 {
   margin-bottom: 18px;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 17px;
   letter-spacing: 0.8px; }
 
@@ -1471,7 +1471,7 @@ h4.index-Facebook_H4 {
 
 .productsSingle-Awards_H2 {
   margin-bottom: 18px;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 17px;
   letter-spacing: 0.8px; }
 
@@ -1486,17 +1486,17 @@ h4.index-Facebook_H4 {
   margin-bottom: 6px; }
 
 .productsSingle-Awards_AwardsYearContainer {
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding-bottom: 2px;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
 .productsSingle-Awards_AwardsYear {
-  color: #666666; }
+  color: #555555; }
 
 .productsSingle-Awards_AwardsFor {
   margin-left: 18px;
-  color: #aaaaaa; }
+  color: #888888; }
 
 .productsSingle-Awards_AwardsListInYear {
   display: -webkit-box;
@@ -1520,7 +1520,7 @@ h4.index-Facebook_H4 {
 
 .productsSingle-Awards_AwardsTitleH3 {
   padding-bottom: 6px;
-  color: #666666;
+  color: #555555;
   font-size: 16px; }
 
 .productsSingle-Awards_AwardsAuthorityLink {
@@ -1534,7 +1534,7 @@ h4.index-Facebook_H4 {
 
 .productsSingle-Awards_ExternalLinkIcon {
   margin: 2px 0 0 6px;
-  color: #666666;
+  color: #555555;
   font-size: 11px; }
 
 .productsSingle-Awards_AwardsTitleLogoContainer {
@@ -1573,9 +1573,9 @@ h4.index-Facebook_H4 {
 
 .productsSingle-SubNav_BackToNewsList {
   display: inline-block;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding: 6px 3px 0 0;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -1604,7 +1604,7 @@ h4.index-Facebook_H4 {
 
 .productsSingle-BackToTop_Text {
   margin-top: 4px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .brand-Header {
@@ -1736,7 +1736,7 @@ h4.index-Facebook_H4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #555555;
   padding: 18px 0; }
 
 .brand-Awards_ProductNameH4 {
@@ -1764,7 +1764,7 @@ h4.index-Facebook_H4 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -1793,7 +1793,7 @@ h4.index-Facebook_H4 {
   border: 1px dashed #eeeeee;
   margin-top: 12px;
   padding: 4px;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 9px;
   text-align: center; }
 
@@ -1808,7 +1808,7 @@ h4.index-Facebook_H4 {
   border: 1px dashed #eeeeee;
   margin-top: 6px;
   padding: 24px;
-  color: #aaaaaa;
+  color: #888888;
   font-size: 18px;
   text-align: center; }
 
@@ -1818,9 +1818,9 @@ h4.index-Facebook_H4 {
 
 .brand-Awards_SeeThisProduct {
   display: inline-block;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #888888;
   padding: 2px 12px 1px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .brand-Awards_TimelineContainer {
@@ -1831,17 +1831,17 @@ h4.index-Facebook_H4 {
   margin-bottom: 48px; }
 
 .brand-Awards_AwardsYearContainer {
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding-bottom: 2px;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
 .brand-Awards_AwardsYear {
-  color: #666666; }
+  color: #555555; }
 
 .brand-Awards_AwardsFor {
   margin-left: 18px;
-  color: #aaaaaa; }
+  color: #888888; }
 
 .brand-Awards_AwardsListInYear {
   display: -webkit-box;
@@ -1865,7 +1865,7 @@ h4.index-Facebook_H4 {
 
 .brand-Awards_AwardsTitleH3 {
   padding-bottom: 6px;
-  color: #666666;
+  color: #555555;
   font-size: 16px; }
 
 .brand-Awards_AwardsAuthorityLink {
@@ -1879,7 +1879,7 @@ h4.index-Facebook_H4 {
 
 .brand-Awards_ExternalLinkIcon {
   margin: 2px 0 0 6px;
-  color: #666666;
+  color: #555555;
   font-size: 11px; }
 
 .brand-Awards_AwardsTitleLogoContainer {
@@ -1897,7 +1897,7 @@ h4.index-Facebook_H4 {
   display: block;
   background-color: #f6f6f6;
   padding: 12px 0;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   text-align: center;
   letter-spacing: 1px; }
@@ -1939,9 +1939,9 @@ h4.index-Facebook_H4 {
 
 .brand-SubNav_BackToNewsList {
   display: inline-block;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding: 6px 3px 0 0;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -1970,7 +1970,7 @@ h4.index-Facebook_H4 {
 
 .brand-BackToTop_Text {
   margin-top: 4px;
-  color: #666666;
+  color: #555555;
   font-size: 10px; }
 
 .distribution-Header_H1 {
@@ -1987,7 +1987,7 @@ h4.index-Facebook_H4 {
 .distribution-Region_NameH2 {
   border-bottom: 1px solid #f6f6f6;
   padding: 6px;
-  color: #666666;
+  color: #555555;
   font-size: 11px;
   text-align: center;
   letter-spacing: 1.2px; }
@@ -2007,8 +2007,8 @@ h4.index-Facebook_H4 {
   letter-spacing: 1px; }
 
 .distribution-Distibutor {
-  border-top: 1px solid #aaaaaa;
-  border-bottom: 1px solid #aaaaaa; }
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888; }
 
 .distribution-Distibutor_NameH4 {
   margin: 12px 0;
@@ -2038,7 +2038,7 @@ h4.index-Facebook_H4 {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 12px 0;
-  color: #666666;
+  color: #555555;
   font-size: 11px; }
 
 .distribution-Distributor_Detail {
@@ -2050,15 +2050,15 @@ h4.index-Facebook_H4 {
 
 .distribution-Contact_Message {
   margin: 60px 10% 42px;
-  color: #666666;
+  color: #555555;
   font-size: 14px;
   line-height: 150%;
   letter-spacing: 1px; }
 
 .distribution-Contact_Link {
-  border: 1px solid #aaaaaa;
+  border: 1px solid #888888;
   padding: 10px 38px 7px;
-  color: #666666;
+  color: #555555;
   font-size: 18px;
   letter-spacing: 0.5px; }
 
@@ -2088,9 +2088,9 @@ h4.index-Facebook_H4 {
 
 .distribution-SubNav_BackToNewsList {
   display: inline-block;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #888888;
   padding: 6px 3px 0 0;
-  color: #666666;
+  color: #555555;
   font-size: 12px;
   letter-spacing: 0.5px; }
 
@@ -2119,5 +2119,215 @@ h4.index-Facebook_H4 {
 
 .distribution-BackToTop_Text {
   margin-top: 4px;
-  color: #666666;
+  color: #555555;
+  font-size: 10px; }
+
+.contact-Header_H1 {
+  margin-bottom: 30px;
+  padding: 30px 18px 0;
+  color: #222222;
+  font-size: 16px; }
+
+.contact-Message {
+  padding: 24px 36px; }
+
+.contact-Message_Paragraph {
+  color: #555555;
+  font-size: 14px;
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 1px; }
+  .contact-Message_Paragraph:first-child {
+    margin-bottom: 36px; }
+
+.contact-Address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("/contact/images/Model2500-FrontMask.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 88vh;
+  max-height: 546px;
+  padding: 0 30px; }
+
+.contact-Address_List {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 75%;
+  padding: 0 42px; }
+
+.contact-Address_ListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 60px;
+  color: #555555;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.8px; }
+  .contact-Address_ListItem:last-child {
+    margin-bottom: 0; }
+
+.contact-Address_H3 {
+  margin-bottom: 8px;
+  color: #222222;
+  font-size: 20px;
+  letter-spacing: 1px; }
+
+.contact-Location {
+  padding: 72px 48px;
+  letter-spacing: 0.8px; }
+
+.contact-Location_H2 {
+  margin-bottom: 54px;
+  font-size: 28px; }
+
+.contact-Location_CompanyName {
+  margin-bottom: 48px;
+  font-size: 20px; }
+
+.contact-Location_CompanyAddressContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+  color: #555555;
+  line-height: 125%; }
+
+.contact-Location_CompanyAddress {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 16px; }
+
+.contact-Location_MapLink {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #222222;
+  max-width: 90px;
+  height: 36px;
+  color: #555555;
+  font-size: 16px;
+  text-indent: 2px; }
+
+.contact-Location_MapExternalLink {
+  margin-left: 2px;
+  font-size: 12px; }
+
+.contact-Location_OwnerName {
+  color: #555555;
+  line-height: 125%; }
+
+.contact-Facebook {
+  margin-top: 40px;
+  padding: 0 24px; }
+
+.contact-Facebook_Container {
+  border: 1px solid #4990E2; }
+
+h4.contact-Facebook_H4 {
+  margin: 24px 0;
+  color: #888888;
+  font-size: 20px;
+  text-align: center; }
+
+.contact-Facebook_Wapper {
+  padding: 0 24px 24px; }
+
+.contact-Facebook_Embedded {
+  max-width: 340px;
+  margin: 0 auto; }
+
+.contact-SubNav {
+  border-top: 2px solid #f6f6f6;
+  margin: 78px 0 42px;
+  padding-top: 12px; }
+
+.contact-SubNav_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contact-SubNav_ListItem {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.contact-SubNav_BackToNewsList {
+  display: inline-block;
+  border-bottom: 1px solid #888888;
+  padding: 6px 3px 0 0;
+  color: #555555;
+  font-size: 12px;
+  letter-spacing: 0.5px; }
+
+.contact-SubNav_BackToNewsList_LinkArrowIcon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 11px;
+  height: 7px;
+  margin-right: 1px; }
+
+.contact-SubNav_BackToTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.contact-BackToTop_Icon {
+  width: 30px;
+  height: 30px; }
+
+.contact-BackToTop_Text {
+  margin-top: 4px;
+  color: #555555;
   font-size: 10px; }
