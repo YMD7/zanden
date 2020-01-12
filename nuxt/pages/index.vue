@@ -1,5 +1,5 @@
 <template lang="pug">
-main
+main.l-main
   section
     article.p-cover
       a
@@ -60,10 +60,8 @@ main
         | BACK TO TOP
 </template>
 
-<script>
-export default {
-}
-</script>
-
-<style>
+<style lang="stylus">
+.l-main
+  flex 1
+  width 100%
 </style>
