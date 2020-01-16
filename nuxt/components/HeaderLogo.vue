@@ -23,5 +23,6 @@ export default {
   justify-content center
 
 .l-header__logo-anchor
-  padding 9px 2px 2px
+  display flex
+  padding 5px 0 0 0
 </style>

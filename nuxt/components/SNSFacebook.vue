@@ -1,9 +1,9 @@
 <template lang="pug">
-.l-sns__facebook
-  h4.c-sns__facebook-header
-    | Get our updates on Facebook.
+.c-sns__facebook
   .c-sns__facebook-container
-    .c-sns__facebook-embed
+    h4.c-sns__facebook-header
+      | Get our updates on Facebook.
+    div
       .fb-page(
         data-href="https://www.facebook.com/zandenaudio/"
         data-tabs="timeline"
@@ -20,9 +20,22 @@
 </template>
 
 <style lang="stylus">
-.l-sns__facebook
+.c-sns__facebook
   display flex
+  flex-direction column
   justify-content center
-  margin: 30px 0 0 0;
+  align-items center
+  margin 30px 0 0 0
 
+.c-sns__facebook-container
+  border 1px solid #4990E2
+  width 100%
+  max-width 330px
+  padding 0 24px 24px 24px
+
+.c-sns__facebook-header
+  margin: 24px 0;
+  color: gray;
+  font-size: 20px;
+  text-align: center;
 </style>

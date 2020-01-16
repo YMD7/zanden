@@ -27,5 +27,4 @@ export default {
   width 100%
   height 56px
   min-height 56px
-  padding 4px 18px 0
 </style>

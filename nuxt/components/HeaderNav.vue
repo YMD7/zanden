@@ -38,15 +38,14 @@ export default {
 .l-header__nav
   order 1
   display flex
-  align-items center
 
 .l-header__nav-menu
+  display flex
   position relative
   z-index 11
   border none
   background-color transparent
-  height 28px
-  padding 4px 2px
+  padding 0 18px 0 18px
 
 .l-header__nav-contaier
   display flex

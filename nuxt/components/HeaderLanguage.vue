@@ -27,12 +27,12 @@ export default {
   order 3
   display flex
   align-items center
+  padding 0 16px 0 16px
 
 .l-header__language-icon
   border none
   background-color transparent
-  height 28px
-  padding 4px 2px
+  height 24px
 
 .l-header__language-container--hidden
   display none
