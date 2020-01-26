@@ -31,7 +31,4 @@ export default {
   flex-direction column
   align-items center
   padding 12px 0 24px 0
-
-.c-news__list-image
-  max-height 240px
 </style>

@@ -3,7 +3,7 @@ main.l-content
   section.l-cover
     index-cover
   section.l-news__list
-    news-list
+    index-news-list
     nav-prev-next-link
   .l-nav__menu
     nav-menu
@@ -15,7 +15,7 @@ main.l-content
 
 <script>
 import IndexCover from '~/components/IndexCover.vue'
-import NewsList from '~/components/NewsList.vue'
+import IndexNewsList from '~/components/IndexNewsList.vue'
 import NavPrevNextLink from '~/components/NavPrevNextLink.vue'
 import NavMenu from '~/components/NavMenu.vue'
 import SNSFacebook from '~/components/SNSFacebook.vue'
@@ -24,7 +24,7 @@ import NavBackToTop from '~/components/NavBackToTop.vue'
 export default {
   components: {
     'index-cover': IndexCover,
-    'news-list': NewsList,
+    'index-news-list': IndexNewsList,
     'nav-prev-next-link': NavPrevNextLink,
     'nav-menu': NavMenu,
     'sns-facebook': SNSFacebook,
